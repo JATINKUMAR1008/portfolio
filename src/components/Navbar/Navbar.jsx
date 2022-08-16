@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MenuIcon, ArrowNarrowRightIcon, XIcon } from "@heroicons/react/solid";
+import { MenuIcon, XIcon } from "@heroicons/react/solid";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -43,7 +43,7 @@ const Navbar = () => {
           ))}
         </ul>
         <div
-          className="cursor-pointer pr-4 z-10 text-gray-500 "
+          className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden "
           onClick={() => setNav(!nav)}
         >
           {nav ? (
