@@ -68,7 +68,7 @@ export const projectList = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
     ],
-    url: "https://ankitraj.vercel.app/",
+    url: "https://jatinkumar1008.vercel.app/",
     github: "https://github.com/JATINKUMAR1008/portfolio",
     features: [
       "Sleek and modern design",
