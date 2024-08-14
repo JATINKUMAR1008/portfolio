@@ -30,7 +30,7 @@ const canela = localFont({
 
 export const metadata: Metadata = {
   title: "Jatin Kumar",
-  description: "DevOps && Frontend Developer",
+  description: "DevOps && FullStack Developer",
   keywords: ["Jatin", "Kumar", "Portfolio"],
 };
 
