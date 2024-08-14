@@ -31,7 +31,7 @@ const Hero = () => {
         <span className="text-yellow-500">log</span>
         <span> (</span>&quot;
         <span>
-          I am a DevOps Engineer and Frontend Developer based in India, I
+          I am a DevOps Engineer and FullStack Developer based in India, I
         </span>
         <span className="opacity-70"> 💛</span>
         <span> building Web Apps.</span>&quot;
