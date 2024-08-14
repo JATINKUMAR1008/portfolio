@@ -69,7 +69,7 @@ export const projectList = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
     ],
     url: "https://ankitraj.vercel.app/",
-    github: "https://github.com/ankitrajxd/personal-portfolio",
+    github: "https://github.com/JATINKUMAR1008/portfolio",
     features: [
       "Sleek and modern design",
       "Built with Next.js for server-side rendering",
