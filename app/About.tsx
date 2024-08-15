@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import profilepic from "@/public/b281ff729f1b0b37d37d0d4400635912.jpg";
+import profilepic from "@/public/profile-1.jpg";
 import { GoArrowUpRight } from "react-icons/go";
 
 const About = () => {
