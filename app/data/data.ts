@@ -10,6 +10,7 @@ import selenium from "@/public/selenium.jpg";
 import htmlcss from "@/public/next.png";
 import nodejs from "@/public/nodejs.webp";
 import { describe } from "node:test";
+import { url } from "inspector";
 
 export const projectList = [
   {
@@ -47,6 +48,17 @@ export const projectList = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/puppeteer/puppeteer-original.svg",
     ],
+    url: "https://data-scraper-lime.vercel.app/",
+    github: "https://github.com/JATINKUMAR1008/data-scraper",
+    features: [
+      "Automated Scraping of websites",
+      "No code workflow builder",
+      "Scheduling tasks for updated data extractions",
+      "Data storage in PostgreSQL",
+      "User authentication and management",
+    ],
+    detailedDescription:
+      "This project is a no-code web scraping workflow builder that allows users to extract data from any website. It provides a user-friendly interface for creating and scheduling scraping tasks, ensuring that users can easily access updated data without writing any code.",
   },
 
   {
@@ -65,6 +77,16 @@ export const projectList = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
     ],
+    url: "https://togethersync.vercel.app/sign-up",
+    github: "https://github.com/JATINKUMAR1008/together-frontend",
+    features: [
+      "Real-time collaboration",
+      "Task management system",
+      "User authentication and management",
+      "Notifications and reminders",
+    ],
+    detailedDescription:
+      "This project is a task management system that allows users to manage their tasks collaboratively in real-time. It provides features such as user authentication, notifications, and reminders to enhance productivity.",
   },
 
   {
