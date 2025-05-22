@@ -11,7 +11,11 @@ const NavBar = () => {
         jk
       </Link>
       <div className="flex gap-2">
-        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+        <a
+          href="/JATIN_KUMAR_FULLSTACK_RESUME.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Button variant={"outline"} size={"sm"}>
             Resume
           </Button>

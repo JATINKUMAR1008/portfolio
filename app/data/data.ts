@@ -9,6 +9,7 @@ import kubernetes from "@/public/kubernetes.png";
 import selenium from "@/public/selenium.jpg";
 import htmlcss from "@/public/next.png";
 import nodejs from "@/public/nodejs.webp";
+import { describe } from "node:test";
 
 export const projectList = [
   {
@@ -23,13 +24,47 @@ export const projectList = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg"
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg",
     ],
     url: undefined,
     github: "https://github.com/JATINKUMAR1008/db-pfl.git",
     features: ["Responsive", "Serverless deployment", "Cluster management"],
     detailedDescription:
       "Developed a secure and efficient Full Stack application to deploy database servers, integrating front-end and back-end technologies.",
+  },
+
+  {
+    id: 12,
+    tag: "top",
+    title: "Scraper",
+    category: "fullstack",
+    image: shadcn,
+    description:
+      "No code web scraping workflow builder to extract data from any website and schedule the tasks for the updated data extractions.",
+    tech: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/puppeteer/puppeteer-original.svg",
+    ],
+  },
+
+  {
+    id: 11,
+    tag: "top",
+    title: "Together Task Management System",
+    category: "fullstack",
+    image: shadcn,
+    description:
+      "Task management system with real-time collaboration and notifications.",
+    tech: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+    ],
   },
 
   {
@@ -52,7 +87,7 @@ export const projectList = [
       "Automated deployment process",
       "Integration with Jenkins for continuous integration",
       "Usage of Docker for containerization",
-      "Provisioned Using Terraform"
+      "Provisioned Using Terraform",
     ],
     detailedDescription:
       "This project implements a Continuous Integration and Continuous Deployment (CI/CD) pipeline using Jenkins and Docker for deploying web applications. It automates the deployment process and integrates with Jenkins for continuous integration.",
@@ -138,7 +173,8 @@ export const projectList = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
     ],
     url: undefined,
-    github: "https://github.com/JATINKUMAR1008/Ecomerce_Microservices_Application",
+    github:
+      "https://github.com/JATINKUMAR1008/Ecomerce_Microservices_Application",
     features: [
       "Automated Kubernetes cluster provisioning and management using Kubeadm",
       "Integration with DigitalOcean for scalable infrastructure deployment",
@@ -163,7 +199,14 @@ export const projectList = [
     ],
     url: undefined,
     github: "https://github.com/JATINKUMAR1008/Scalable-Chat-App.git",
-    features: ["Developed in monorepo environment", "Real-time chat functionality", "Scalable and efficient", "Using Redis for pub/sub", "Using SQLite for database", "using prisma for ORM"],
+    features: [
+      "Developed in monorepo environment",
+      "Real-time chat functionality",
+      "Scalable and efficient",
+      "Using Redis for pub/sub",
+      "Using SQLite for database",
+      "using prisma for ORM",
+    ],
     detailedDescription:
       "This chat application is a robust and scalable solution built using modern full-stack technologies. The frontend is developed with Next.js, offering a seamless user experience with fast rendering and dynamic content. The backend is powered by Express.js, providing a flexible and efficient server environment.The application employs Redis for Pub/Sub to enable real-time messaging between users, ensuring low-latency communication. SQLite is used as the database, providing a lightweight and self-contained storage solution, while Prisma acts as the ORM, offering type-safe database access and simplifying database management.The project is organized using Turborepo, enabling efficient monorepo management, ensuring modularity, and optimizing build and deployment processes. This architecture allows for easy scaling and maintainability, making it suitable for both small teams and large-scale production environments.",
   },
